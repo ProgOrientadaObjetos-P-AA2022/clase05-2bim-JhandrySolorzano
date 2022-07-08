@@ -3,6 +3,8 @@
  */
 package paquete03;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author reroes
@@ -17,9 +19,17 @@ public class Principal {
         taxi.establecerCooperativaTaxi("Yahuarcuna");
         taxi.establecerTarifa();
         
+      TransporteTransvia transvia = new TransporteTransvia();
+        transvia.establecerCooperativaTransvia("Zalapa");
+        transvia.establecerTarifa();
+        
+        
+        
+        
         TiposTransporte tipos = new TiposTransporte();
         tipos.establecerTransporteBus(bus);
         tipos.establecerTransporteTaxi(taxi);
+        tipos.establecerTransporteTransvia(transvia);
         tipos.establecerPromedioTarifas();
         
         System.out.printf("Promedio de Tarifas: %.2f", 

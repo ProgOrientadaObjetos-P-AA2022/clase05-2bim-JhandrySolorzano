@@ -36,7 +36,15 @@ public class Persona {
         return edad;
     }
     
-    public double promedioEdades(ArrayList<Persona> lista){
+      /* @Override
+    public String toString() {
+          String cadena = String.format("\tNombre: %s\n"
+                + "\tEdad: %d\n",
+                  obtenerNombre(),
+                  obtenerEdad());           
+        return cadena;
+    }
+    /*public double promedioEdades(ArrayList<Persona> lista){
         double promedio = 0;
         double suma = 0;
         for (int i = 0; i < lista.size(); i++) {
@@ -44,5 +52,5 @@ public class Persona {
         }
         promedio = suma/lista.size();
         return promedio;
-    }
+    }*/
 }

@@ -9,7 +9,7 @@ package paquete04;
  *
  * @author User
  */
-public class TransporteTransvia {
+public class TransporteTransvia extends Transporte{
          private String cooperativaTransvia;
     public double tarifa;
     

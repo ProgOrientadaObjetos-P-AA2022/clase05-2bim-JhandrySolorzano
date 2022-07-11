@@ -44,6 +44,14 @@ public class TarjetaCredito {
     public double obtenerCupoM(){
         return cupoM;
     }
+    
+    
+      @Override
+    public String toString(){
+        String cadena=String.format("%s - %s - %.2f",nom, codigo,cupoM);
+        return cadena;
+    }
+    
          
          
     

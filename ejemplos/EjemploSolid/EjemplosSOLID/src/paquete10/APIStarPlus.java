@@ -5,14 +5,17 @@
  */
 package paquete10;
 
-
-public class APIAmazonMovie implements APIMovie{
+/**
+ *
+ * @author User
+ */
+public class APIStarPlus implements APIMovie{
     
     private String apiKey;
     
     @Override
     public void establecerApiKey(String ak){
-        apiKey = ak+"909090";
+        apiKey = ak+"658465";
     }
     
     @Override
@@ -20,8 +23,7 @@ public class APIAmazonMovie implements APIMovie{
         return apiKey;
     }
     
-    public String toSting(){
-        return String.format("Amazon: , %s", obtenerApiKey());
+     public String toSting(){
+        return String.format("Star PLus: , %s", obtenerApiKey());
     }
-    
 }
